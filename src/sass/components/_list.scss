@@ -193,7 +193,7 @@ tr.issue {
 
   @for $i from 1 through 9 {
     &.idnt-#{$i} .subject {
-      padding-left: $table-cell-padding + 16px * ($i - 1);
+      padding-left: $table-cell-padding + 16px * ($i);
     }
   }
 }

@@ -36,7 +36,7 @@ $gray-light:                    lighten($gray-base, 17%) !default;
 $gray-lighter:                  lighten($gray-base, 35%) !default;
 $gray-lightest:                 lighten($gray-base, 46%) !default;
 
-$brand-primary:                 #584492 !default;
+$brand-primary:                 #2B354D !default;
 $brand-text:                    #fff !default;
 $brand-accent:                  #deddef !default;
 
@@ -229,7 +229,27 @@ $tracker-default-colors-map: (
   7: (
     background:                 mix($brand-primary, $brand-warning, 50%),
     color:                      $brand-text
-  )
+  ),
+  8: (
+    background:                 mix($brand-primary, $brand-warning, 40%),
+    color:                      $brand-text
+  ),
+  9: (
+    background:                 mix($brand-primary, $brand-warning, 30%),
+    color:                      $brand-text
+  ),
+  10: (
+    background:                 mix($brand-primary, $brand-warning, 15%),
+    color:                      $brand-text
+  ),
+  11: (
+    background:                 mix($brand-primary, $brand-warning, 65%),
+    color:                      $brand-text
+  ),
+  12: (
+    background:                 mix($brand-primary, $brand-warning, 80%),
+    color:                      $brand-text
+  ),
 ) !default;
 $tracker-custom-colors-map:     () !default;
 $tracker-colors-map:            map-merge($tracker-default-colors-map, $tracker-custom-colors-map);
